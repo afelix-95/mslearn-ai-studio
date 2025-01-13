@@ -1,0 +1,5 @@
+#AzureAIServiceConnection.yml
+
+name: ai-foundry-resources
+type: azure_ai_services
+endpoint: https://ai-foundry-resources.cognitiveservices.azure.com/
