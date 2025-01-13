@@ -2,7 +2,7 @@ az group create --name ai-foundry-rg --location eastus
 
 az cognitiveservices account create --name ai-foundry-resources --resource-group ai-foundry-rg  --kind AIServices --sku S0 --location eastus --yes
 
-az cognitiveservices account deployment create --name ai-foundry-resources --resource-group ai-foundry-rg --deployment-name gpt-4 --model-name gpt-4 --model-version "1" --model-format OpenAI --sku-capacity "1" --sku-name "Standard"
+az cognitiveservices account deployment create --name ai-foundry-resources --resource-group ai-foundry-rg --deployment-name gpt-4 --model-name gpt-4 --model-version "turbo-2024-04-09" --model-format OpenAI --sku-capacity "5" --sku-name "Standard"
 
 az ml workspace create --kind hub --resource-group ai-foundry-rg --name ai_foundry_lab_hub546
 
