@@ -10,7 +10,7 @@ Retrieval Augmented Generation (RAG) is a technique used to build applications t
 
 In this exercise, you'll use Azure AI Foundry portal to integrate custom data into a generative AI prompt flow.
 
-This exercise takes approximately **45** minutes.
+This exercise takes approximately **60** minutes.
 
 ## Create an Azure AI Search resource
 
