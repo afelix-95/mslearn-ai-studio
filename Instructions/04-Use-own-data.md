@@ -163,6 +163,8 @@ Your vector index has been saved in your Azure AI Foundry project, enabling you 
 
     Wait for the runtime to start. This provides a compute context for the prompt flow. While you're waiting, in the **Flow** tab, review the sections for the tools in the flow.
 
+>**Note**: If your compute session fails to start, expand the options under **Start compute session** and select **Start with advanced settings**. Select the VM size **Standard_D13_v2** and leave the remaining settings unchanged.
+  
 1. In the **Inputs** section, ensure the inputs include:
     - **chat_history**
     - **chat_input**
